@@ -88,7 +88,7 @@ const makeAnnotationString = (annotation: Annotation, plugin: IHasAnnotatorSetti
             highlightHighlightedText ? ' ==' : ''
         }${exact.trim()}${highlightHighlightedText ? '== ' : ''}${
             includePostfix ? `%%POSTFIX%%${suffix.trim()}` : ''
-        }*\n%%LINK%%[[#^${annotation.id}|show annotation]]\n%%COMMENT%%\n${
+        }*\n%%LINK%%[[#^${annotation.id}|ANNOTATION: ${annotation.text}]]\n%%COMMENT%%\n${
             annotation.text || ''
         }\n%%TAGS%%\n${annotation.tags.map(x => `#${x}`).join(', ')}`;
 

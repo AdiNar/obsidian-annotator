@@ -1,10 +1,14 @@
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/elias-sundqvist/obsidian-annotator?style=for-the-badge&sort=semver)](https://github.com/elias-sundqvist/obsidian-annotator/releases/latest)
 ![GitHub All Releases](https://img.shields.io/github/downloads/elias-sundqvist/obsidian-annotator/total?style=for-the-badge)
-# Obsidian Annotator
+# Obsidian Annotator (forked!)
 
-This is a plugin for Obsidian (https://obsidian.md). It allows you to open and annotate PDF and EPUB files. 
+This is a plugin for Obsidian (https://obsidian.md). It allows you to open and annotate PDF and EPUB files.
 
 The plugin is based on https://web.hypothes.is/, but modified to store the annotations in a local markdown file instead of on the internet. 
+
+## Why this fork?
+Take a look at [example](example/Example.md). It's also a valid Obsidian example. Just copy it inside any Obisidian vault.
+There are also instructions how to download this forked version of the plugin.
 
 ## Demonstration
 ![annotator demo](https://user-images.githubusercontent.com/9102856/131702952-1aa76baa-a279-474c-978d-cec95a683485.gif)
